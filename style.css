@@ -1,7 +1,5 @@
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
 }
 
 body {
@@ -22,4 +20,47 @@ body {
   100% {
     background-position: 0 50%;
   }
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.col-50 {
+  width: 50%;
+}
+
+.col-30 {
+  width: 30%;
+}
+.justify-content-space-around {
+  justify-content: space-around;
+}
+.align-items-center {
+  align-items: center;
+}
+.bio {
+  border: 1px solid whitesmoke;
+  backdrop-filter: blur(10px);
+  background: #ffffff57;
+  padding :1rem;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.flex-reverse {
+  flex-direction: row-reverse;
+}
+
+section {
+  margin: 1rem 0;
 }
