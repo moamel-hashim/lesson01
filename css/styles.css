@@ -55,4 +55,50 @@ img {
 
 img:hover {
   opacity: 100%;
+}
+
+.intro {
+  display: flex;
+}
+.intro .about-me {
+  width: 50%;
+}
+@media only screen and (max-width: 760px) {
+  .intro .about-me {
+    width: 100%;
+  }
+}
+.intro .about-me-image {
+  width: 25%;
+}
+@media only screen and (max-width: 760px) {
+  .intro .about-me-image {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .intro {
+    display: block !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  section:nth-child(3) div {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  section:nth-child(4) div {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  section:nth-child(5) div {
+    display: block !important;
+    width: 100% !important;
+  }
 }/*# sourceMappingURL=styles.css.map */
